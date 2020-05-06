@@ -1,17 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Sobre
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col width-100>
+        <ion-list class="lista">
+          <ion-item class="item">
+            <pre><strong>Nome App: </strong> ClimaIrriga</pre>
+          </ion-item>
+          <ion-item>
+            <pre><strong>Versão: </strong> 1.0.0</pre>
+          </ion-item>
+          <ion-item>
+            <pre><strong>Descrição: </strong>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+Desafio Irriga Juan Ramos
+Aplicativo meteorológico!s</pre>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

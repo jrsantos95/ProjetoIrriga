@@ -1,0 +1,34 @@
+.paginaInicial{
+    --ion-background-color: #6495ed;
+    --ion-text-color: #ffffff;
+    margin-top: 30px;
+}
+
+.toolbar{
+    text-align: center;
+}
+
+.tabs-md, .tab-button-icon{
+    color: #cccccc;
+}
+
+.temperatura{
+    font-size: 90px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.velovento, .volumechuva{
+    text-align: center;
+    font-size: 30px;
+}
+
+.icone{
+    text-align: center;
+    width: 100px;
+}
+
+.localidade{
+    text-align: center;
+    font-size: 40px;
+}

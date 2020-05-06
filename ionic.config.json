@@ -1,5 +1,7 @@
 {
   "name": "JuanProjetoIrriga",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
